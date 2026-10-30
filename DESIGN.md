@@ -166,7 +166,7 @@ A cool, near-monochrome palette of blue-black inks and pale greys, with a single
 - **Dark Surface** (dark-surface): card and info-list surface, one step lighter than the page.
 - **Dark Inks** (dark-ink, dark-ink-soft, dark-muted): the text ramp. dark-ink is also the primary button fill, with ink as its label.
 - **Dark Rule / Hairline** (dark-rule, dark-hairline): translucent white at 13% and 8%.
-- **Logo Plate** (dark-logo-plate): a pale grey plate behind the Jupyter and RStudio marks, whose artwork is built for light grounds. Plates lose their border in dark theme.
+- **Logo Plate** (dark-logo-plate): a pale grey plate behind the Jupyter mark, whose artwork is built for light grounds. Plates lose their border in dark theme.
 
 ### Error
 - **Error** (error, error-bg, error-rule): the sign-in error box, a red ink on a pale red field with a pale red rule. Dark theme uses dark-error on an 18% red field.
@@ -249,7 +249,7 @@ Quiet and solid; the only filled control on the page.
 A sticky translucent bar holding one lockup: the org logo (42px high, 34px at widths up to 380px), a 1px by 26px rule divider, and "Science Symposium" in tracked uppercase muted text over two lines, which turns ink on hover. In dark theme every org logo swaps to the white version. JupyterHub's native theme control sits at the right with a 44px touch target and the existing focus outline. The header is rendered through the `nav_bar` block and hidden on redirect pages, retaining the control in the DOM for the upstream theme script.
 
 ### Logo plates
-Jupyter and RStudio marks sit on 64px-high plates with 18px side padding, 1px rule border and 6px corners; the border turns ink on hover. In dark theme the plate is dark-logo-plate with no border.
+The Jupyter mark sits on a 64px-high plate with 18px side padding, 1px rule border and 6px corners; the border turns ink on hover. In dark theme the plate is dark-logo-plate with no border.
 
 ### Split sections
 The AI interactions notice and Acknowledgments sit on the page ground after the FAQ band, each with a hairline top rule and 72px by 80px vertical padding (56px by 64px at 560px). They share one grid, the FAQ's: a 240px heading column (Newsreader 400, 1.5 to 1.85rem) and a content column, 56px apart, stacked at 900px and below.
